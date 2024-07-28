@@ -1,0 +1,11 @@
+[Unit]
+Description=Project Cronjob Service
+
+[Service]
+User=root
+ExecStart=/usr/bin/env project-cronjob 
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user

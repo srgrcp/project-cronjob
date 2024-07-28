@@ -1,0 +1,20 @@
+{
+  "name": "project-cronjob",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "author": "Sergio Carrillo <srgrcp@gmail.com>",
+  "bin": "./dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "install": "npm run build && npm link"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cron": "^3.1.6",
+    "yaml": "^2.5.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+dist
+yarn.lock
+registry-secrets.yml
+config.yaml

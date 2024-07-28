@@ -1,0 +1,6 @@
+- name: Hello
+  schedule: "0 0 1 * *"
+  runOnInit: true
+  commands:
+    - echo "Hello, world! {date}"
+    - echo "Done"
